@@ -1,0 +1,22 @@
+name: axxon_theme
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - axxon_theme/base
+  - axxon_theme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - axxon_theme/user
+  core/drupal.dropbutton:
+    - axxon_theme/dropbutton
+  core/drupal.dialog:
+    - axxon_theme/dialog
+  file/drupal.file:
+    - axxon_theme/file
+  core/drupal.progress:
+    - axxon_theme/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.2'

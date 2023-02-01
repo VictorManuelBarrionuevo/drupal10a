@@ -1,0 +1,15 @@
+axxon.example:
+  path: '/axxon/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\axxon\Controller\AxxonController::build'
+  requirements:
+    _permission: 'authenticated user'
+
+axxon.settings_form:
+  path: '/admin/config/system/axxon'
+  defaults:
+    _title: 'axxon settings'
+    _form: 'Drupal\axxon\Form\SettingsForm'
+  requirements:
+    _permission: 'administer axxon configuration'

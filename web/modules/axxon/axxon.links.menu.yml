@@ -1,0 +1,14 @@
+axxon.settings_form:
+  title: 'axxon'
+  description: 'Configure axxon.'
+  parent: system.admin_config_system
+  route_name: axxon.settings_form
+  weight: 10
+
+axxon.example:
+  title: 'Axxon module info'
+  description: 'Show Axxon module settings'
+  parent: main
+  route_name: axxon.example
+  weight: 9
+  menu_name: main

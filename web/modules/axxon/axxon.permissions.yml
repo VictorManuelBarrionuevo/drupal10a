@@ -1,0 +1,4 @@
+administer axxon configuration:
+  title: 'Administer axxon configuration'
+  description: 'Optional description.'
+  restrict access: true
